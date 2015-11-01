@@ -1,0 +1,26 @@
+<suite name="GoogleSuite" verbose="5" parallel="tests" thread-count="3">
+	<test name="SanityTests+CH">
+		<parameter name="url" value="http://www.google.com" />
+		<parameter name="browserType" value="CH" />
+		<classes>
+			<class name="com.h2k.testng.ParametersEx">
+			</class>
+		</classes>
+	</test>
+	<test name="SanityTests+IE">
+		<parameter name="url" value="http://www.google.com" />
+		<parameter name="browserType" value="IE" />
+		<classes>
+			<class name="com.h2k.testng.ParametersEx">
+			</class>
+		</classes>
+	</test>
+	<test name="SanityTests+FF">
+		<parameter name="url" value="http://www.google.com" />
+		<parameter name="browserType" value="FF" />
+		<classes>
+			<class name="com.h2k.testng.ParametersEx">
+			</class>
+		</classes>
+	</test>
+</suite>
